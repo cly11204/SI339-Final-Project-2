@@ -1,0 +1,127 @@
+/* This page will use grid*/
+/* this is for the about page */
+
+.skip a { 
+    display: none;
+}
+@font-face {
+    font-family: 'bodoni_ferrara_displaylight';
+    src: url('./webfontkit-20230404-212132/bodoniferraradisplay-light-webfont.woff2') format('woff2'),
+         url('./webfontkit-20230404-212132/bodoniferraradisplay-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Lostar;
+    src: url("/lostar/Lostar.ttf");
+}
+
+
+body { 
+    font-family: 'bodoni_ferrara_displaylight';
+}
+
+li:first-child a:first-child { 
+    font-family: Lostar;
+    font-size: 25px;
+}
+
+
+@media only screen and (min-device-width: 600px) { 
+    body {
+        background-color: antiquewhite;
+        font-family: 'Inter', serif;
+        font-size: 12px;
+      }
+
+    .overview-block { 
+        background-color: #82B276;
+        width: 620px; 
+        height: 620px;
+        position: relative;
+    }
+
+    .overview-image{ 
+        position: absolute;
+        display: grid;
+        justify-content: center; 
+        align-items: center;
+    }
+
+    ul { 
+        display: grid;
+        grid-template-areas: 'first-header header header header'; 
+        grid-gap: 10px;
+        padding: 10px;
+        justify-items: end; 
+   } 
+
+    nav a {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    nav {
+        padding: 10px;
+        text-align: right;
+    }
+
+   li > a { 
+    font-family: Inter;
+   }
+
+   .container { 
+        display: grid; 
+        grid-template-columns: repeat(1fr, 2);
+        width: 600px;
+   }
+
+   .container > div { 
+        text-align: center;
+   }
+
+   .container img{ 
+        width: 400px;
+        padding: 10px;
+        margin: 10px;
+   }
+
+   /* .overview{
+        font-size: 30px;
+        padding: 5px;
+        margin: 5px;
+        grid-row: 2/span 1;
+   } */
+
+   .overview-image img {
+        grid-column: 1/span 1;
+        grid-row: 1/span 1;
+        width: 300px;
+        padding-left: 150px;
+
+   }
+
+   h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Bebas Neue', serif;
+
+   }
+
+   h2{ 
+    font-size: 15px;
+    padding-top: 400px;
+   }
+
+   p{
+    padding: 15px 30px 30px 30px;
+    font-size: 17px;
+    text-align: center;
+   }
+
+
+}
