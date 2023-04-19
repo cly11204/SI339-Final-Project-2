@@ -1,0 +1,17 @@
+
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: green;
+}
+
+li {
+  flex: 1 0 100%;
+  text-align: center;
+}
+
+li.active {
+  order: -1;
+}
+

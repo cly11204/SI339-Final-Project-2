@@ -6,75 +6,169 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas Neue">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril Fatface">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap" rel="stylesheet">
     <title>Home Page</title>
 
 </head>
 <body>
-    <header>
-        <div class="skip"> <a href="#main">Skip to Main Content</a></div>
-      <nav>
-          <ul>
-            <li class="active"><a href = "home.html">Caitlin Yeung</a></li>
-            <li><a href="index.html">About</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-          </ul>
-      </nav> 
-    </header>
+  <header class="sticky-header">
+    <nav>
+      <ul>
+        <li class="logo"><a href="index.html">Caitlin Yeung</a></li>
+        <li class="hidden"><a href="work.html">Work</a></li>
+        <li class="hidden" id = "active"><a href="home.html">Portfolio</a></li>
+      </ul>
+    </nav>
+    <a href='#main' class="skip">Skip to Main Content</a>
+  </header>
+    
+
 
     <div class = "background-text-block">
-        <h1>Hey There, </br> I'm Caitlin</h1>
-        <h2> I create. I design. I build. </br> I'm inspired by those around me.</br>And I love what I do.</h2>
+      <h1>UI/UX Portfolio & ART Portfolio</h1>
+      <h2> I create. I design. I build. </br> I'm inspired by those around me.</br>And I love what I do.</h2>
+    </div>
+
+    <!-- <div id="clicktosee">
+      <img src = "images/home/clicktosee.png" alt="Clickable Picture">
     </div>
     
-    <div class = "random-text-block">
-
-    <div id="image1">
-        <img src = "images/home/clicktosee.png" alt="Image 1">
-      </div>
-      
-      <div id="image2">
-        <img src = "images/home/circle.png" alt="Image 2">
-      </div>
-      
-      <div id="image3">
-        <img src = "images/home/circle.png" alt="Image 3">
-      </div>
-
-        
-    <main class = "container" id = "main">
-        <div class = overview>
-            <h2> About</h2>
-            <h3> Chinese-American front-end developer and financial analyst based in Brooklyn, NY focused on product management, and information analysis. Graduating in Business Administration concentrating in Finance and Information Science from the University of Michigan - Ann Arbor. </h3> 
-        </div>
-
-        <div class = "overview-text-block">
-            <h2> What About My Skills</h2>
-            <h3>Business</h3>
-            <h4> Microsoft Office</h4>
-            <h4> Financial/Managuerial Accounting</h4>
-            <h4> Marketing</h4>
-            <h4> Finance/Capital Investment/Trading Strategies</h4>
-
-            <h3>Information Science</h3>
-            <h4> Figma</h4>
-            <h4> Illustrator</h4>
-            <h4> HTML/CSS/JavaScript</h4>
-            <h4> Python</h4>
-            <h4> SQL/SQLite3</h4>
-
-        </div>
+    <div id="funfact1">
+      <img src = "images/home/circle.png" alt="Fun Fact1">
+    </div>
     
-        <!-- <div class="overview-image" id = "about">
-            <img src = "images/index/Headshot.jpg" alt = "Picture of Me">
-        </div>
+    <div id="funfact2">
+      <img src = "images/home/circle.png" alt="Fun Fact2">
+    </div>
 
-        <div class="headshot-image" id = "about">
-            <img src = "images/index/Headshot.jpg" alt = "Picture of Me">
-        </div> -->
+    <div id="funfact3">
+      <img src = "images/home/circle.png" alt="Fun Fact3">
+    </div>
+
+    <div id="funfact4">
+      <img src = "images/home/circle.png" alt="Fun Fact4">
+    </div>
+
+    <div id="funfact5">
+      <img src = "images/home/circle.png" alt="Fun Fact5">
+    </div> -->
+
+    <div class = "random-text-block"> 
+      <p> Scroll down to learn more about me!</p>
+    </div>
+
+    <main id="main" class = "container">
+      <div class="alien-image">
+          <img src = "images/portfolio/Alien.jpeg" alt = "Alien Image Using Graphic Design">
+      </div>
+      <div id = "alien-description">
+        <h3>Always Look Up!</h3>
+        <h4>Description: This was one of my first observation of architecture through a different medium. It's a reminder that you'll never miss out on a moment to admire architecture.</h4>
+      </div>
+      <div class="circlelife-image">
+        <img src = "images/portfolio/CircleofLife.jpeg" alt = "Soft Pastel Artwork opening up the circle of life with life, death, happiness">
+      </div>
+      <div id = "circlelife-description">
+        <h3>Circle of Life</h3>
+        <h4>Description: A still life of various objects representing life. IN the world we live in, people always rely on each other, but the moment we start to lose our loved ones, we need to learn to let them go.</h4>
+      </div>
+      <div class="claw-machine">
+        <img src = "images/portfolio/ClawMachine.jpeg" alt = "An self-portait oil painting about self reflection of myself at different ages">
+      </div>
+      <div id = "claw-machine-description">
+        <h3>Ooh Ooh Pick Me!</h3>
+        <h4> Description: A piece that reminds everyone to place their passion in everything you do. Only you are looking at yourself at every self. Learn to grow as a person and look out after yourself.</h4>
+      </div>
+      <div class="down-rabbit-hole-image">
+        <img src = "images/portfolio/DownTheRabbitHole.jpg" alt = "Architectural Piece inspired by Alice in the Wonderland">
+      </div>
+      <div id = "down-rabbit-hole-description">
+        <h3>Down the Rabbit Hole</h3>
+        <h4>Description: Inspired by Alice in Wonderland, this house is on a hill and resembles Alice escaping reality as she descneds each level. Floor 1 is "reality" as she struggles to fit into societal standards and feels liek she is trapped in a small space.</h4>
+      </div>
+      <div class="heritage-dumpling-image">
+        <img src = "images/portfolio/Dumpling.jpeg" alt = "A mixed media artwork about cultural heritage acceptance">
+      </div>
+      <div id = "heritage-dumpling-description">
+        <h3> 9:00 AM Sunday Surprise</h3>
+        <h4>Description: Learning to accept your own heritage often is difficult.</h4>
+      </div>
+      <div class="flower-plants-image">
+        <img src = "images/portfolio/Flowers Tangled.jpg" alt = "Botanical Garden Edited Using Photoshop">
+      </div>
+      <div id = "flower-plants-description">
+        <h3>Reincarnation</h3>
+        <h4>Description: Like fireworks exploding in the sky, people are always expanding new knowledge, passions, and ideas.</h4>
+      </div>
+      <div class="tools-image">
+        <img src = "images/portfolio/Hardwork.jpeg" alt = "Hardware Tools Using Charcoal">
+      </div>
+      <div id = "tools-description">
+        <h3>Hard Day's Night</h3>
+        <h4>Overcoming each level is sevuring a building block towards understanding ourselves more.</h4>
+      </div>
+      <div class="pen-architecture-image">
+        <img src = "images/portfolio/RedBlueHouse.jpeg" alt = "Thai Architecture Using Red and Blue Pens">
+      </div>
+      <div id = "pen-architecture-description">
+        <h3>Red Blue House</h3>
+        <h4>Description: This is inspired by thailand architecture, the beauty to detail every aspect of a house. You'll never miss out on a moment to admire architecture that was once built before you.</h4>
+      </div>
+      <div class="self-portrait-image">
+        <img src = "images/portfolio/SelfPortrait.jpeg" alt = "SelfPortrait Using Charcoal">
+      </div>
+      <div id = "self-portrait-description">
+        <h3>Reflection of Emotions</h3>
+        <h4>A combination of five charcoal self portraits on bristol paper. Don't be fooled by the emotions people evoke. One moment you see the mask of a person, the next moment you will see the skin.</h4>
+      </div>
+      </main>
+
+      <h2 id="awarded-artworks"> Awarded Artworks</h2>
+      <div class = 'slideshow-container'>
+          <div class = 'slides fade'>
+            <div class = "pictureone"> 1/5</div>
+            <img id="gall" src = "images/portfolio/ClawMachine.jpeg" alt = "claw machine picture">
+          </div>
+          <div class = 'slides fade'>
+            <div class = "picturetwo"> 2/5</div>
+            <img id="gall" src = "images/portfolio/Dumpling.jpeg" alt = "dumpling picture showing heritage acceptance">
+          </div>
+          <div class = 'slides fade'>
+            <div class = "picturethree"> 3/5</div>
+            <img id="gall" src = "images/portfolio/RedBlueHouse.jpeg" alt = "Thai Architecture made with red and blue pens">
+          </div>
+          <div class = 'slides fade'>
+            <div class = "picturefour"> 4/5</div>
+            <img id="gall" src = "images/portfolio/CircleofLife.jpeg" alt = " Picture showing the meaning of life made with Soft Pastel ">
+          </div>
+          <div class = 'slides fade'>
+            <div class = "picturefive"> 5/5</div>
+            <img id="gall" src = "images/portfolio/SelfPortrait.jpeg" alt = "5 Self Portaits made with charcoal">
+          </div>
+      </div>
+
+      <br>
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span>
+        <span class="dot"></span> 
+      </div>
     </main>
     <script src="js/home.js"></script>
+    <footer>
+      <a href = "https://www.instagram.com/caitlin_yeung/">Instagram</a>
+      <a href = "https://www.linkedin.com/in/caitlin-yeung/" target = "_blank"> LinkedIn</a>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=clyeung@umich.edu" target="_blank">Gmail</a>
+      
+      <p>Caitlin Yeung &copy; 2023</p>
+    </footer>
 </body>
+
+
 
 
 </html>

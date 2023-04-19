@@ -9,41 +9,42 @@
     <link rel="stylesheet" type="text/css" href="css/index_style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas Neue">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril Fatface">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap" rel="stylesheet">
     <title>About Page</title>
 </head>
 <body>
-
-    <header>
-        <div class="skip"> <a href="#main">Skip to Main Content</a></div>
-      <nav>
+    <header class="sticky-header">
+        <nav>
           <ul>
-            <li><a href = "home.html">Caitlin Yeung</a></li>
-            <li class="active"><a href="index.html">About</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
+            <li class="logo" id = "active"><a href="index.html">Caitlin Yeung</a></li>
+            <li class="hidden"><a href="work.html">Work</a></li>
+            <li class="hidden"><a href="home.html">Portfolio</a></li>
           </ul>
-      </nav> 
+        </nav>
+        <a href='#main' class="skip">Skip to Main Content</a>
     </header>
+      
     <main class = "container" id = "main">
         <!-- <div class = overview>
             
         </div> -->
 
         <div class = "overview-block">
-            <h1> About Me</h1>
             <div class="overview-image" id = "about">
-                <img src = "images/index/Headshot.jpg" alt = "Picture of Me">
+                <img src = "images/index/Headshot.jpg" alt = "Picture of Me" onclick = "gotoLinkedIn()"></a>
+                </a>
             </div>
-            <h2> Chinese-American front-end developer and financial analyst based in Brooklyn, NY focused on product management, and information analysis. Graduating in Business Administration concentrating in Finance and Information Science from the University of Michigan - Ann Arbor. </h2> 
+            <h1> Hi There! I'm Caitlin Yeung</h1>
+            <h2> Chinese-American Storyteller, Artist, Product Manager living in NYC. 
+            </br> Graduating in Business Administration concentrating in Finance and Information Science from the University of Michigan - Ann Arbor. </h2> 
             
         </div>
 
         <p> Scroll down meet me!</p>
         <div class="airplane-image"> 
+            <a href = "images/index/Airplane.jpg" target = "_blank" data-lightbox = tea data-title = "black tea" data-alt = "black tea">
             <img src = "images/index/Airplane.jpg" alt = "Airplane Window">
+            </a>
         </div>
 
         <p> Mini Blog: My trip to Boston after arriving at the wrong airport in New York City. Having to travel 2 hours in order to see </p>
@@ -52,58 +53,64 @@
             <img src = "images/index/Ball.jpg"  alt = "Eating at Military Ball in Boston">
         </div>
 
-        <p> Mini Blog: My trip to Boston after arriving at the wrong airport in New York City. Having to travel 2 hours in order to see </p>
+        <p> Mini Blog: My first stop was my invitation to a military ball, meeting lieutenants and officers from all over Boston. Here's a photo of me snacking on appetizers. </p>
 
         <div class="banhmi-image"> 
             <img src = "images/index/BanhMi.jpg"  alt = "Best BanhMi in NYC Chinatown">
         </div>
 
-        <p> Mini Blog: My trip to Boston after arriving at the wrong airport in New York City. Having to travel 2 hours in order to see </p>
+        <p> Mini Blog: After my first day back in NYC, I went to grab what I was craving for: banhmi. I went to NYC's authentic best banhmi location in Chinatown called Saigon. It was only less than $10!</p>
     
         <div class="beach-image"> 
             <img src = "images/index/Beach.jpg"  alt = "Seashells and Rocks at the Beach">
         </div>
 
-        <p> Mini Blog: My trip to Boston after arriving at the wrong airport in New York City. Having to travel 2 hours in order to see </p>
+        <p> Mini Blog: Here is a photo of me at the Rockaway Beaches, collecting different rocks and sands while building a sand castle. </p>
 
         <div class="football-image"> 
             <img src = "images/index/FootballGame.jpg"  alt = "Football Game with Friends">
         </div>
 
-        <p> Mini Blog: My trip to Boston after arriving at the wrong airport in New York City. Having to travel 2 hours in order to see </p>
+        <p> Mini Blog: My first football game for the last semester with my friends! It was very fun! </p>
 
         <div class="friends-image"> 
             <img src = "images/index/Friends.jpg"  alt = "Picnic with Friends">
         </div>
 
-        <p> Mini Blog: My trip to Boston after arriving at the wrong airport in New York City. Having to travel 2 hours in order to see </p>
+        <p> Mini Blog: This is a throwback to my first outting during my first semester at U-M. We were on a picnic in Palmer Fields. </p>
         
         <div class="hotpot-image"> 
             <img src = "images/index/Hotpot.jpg"  alt = "Me Eating HotPot in Flushing, NY">
         </div>
 
-        <p> Mini Blog: My trip to Boston after arriving at the wrong airport in New York City. Having to travel 2 hours in order to see </p>
+        <p> Mini Blog: During one of my last few days in NYC I went to get hotpot in Flushing at the Happy Lamb Pot!</p>
         
         <div class="morefriends-image"> 
             <img src = "images/index/MoreFriends.jpg"  alt = "My Friends Laughing">
         </div>
 
-        <p> Mini Blog: My trip to Boston after arriving at the wrong airport in New York City. Having to travel 2 hours in order to see </p>
+        <p> Mini Blog: My first dorm was at Betsy Barbour and here are some of the friends that I met during my time at the dorm. This was during my friend's birthday! </p>
 
         <div class="pasta-image"> 
             <img src = "images/index/Pasta.jpg"  alt = "Pasta in Lower Manhattan">
         </div>
 
-        <p> Mini Blog: My trip to Boston after arriving at the wrong airport in New York City. Having to travel 2 hours in order to see </p>
+        <p> Mini Blog: We went to a really good pasta restaurant with my family during the summer. </p>
 
         <div class="sushi-image"> 
             <img src = "images/index/Sushi.jpg"  alt = "Sashimi">
         </div>
 
-        <p> Mini Blog: My trip to Boston after arriving at the wrong airport in New York City. Having to travel 2 hours in order to see </p>
+        <p> Mini Blog: I went to a hotpot and sushi/sashimi all you can eat buffet in flushing and it tasted really good! </p>
 
     </main>
-	<footer>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>	
+    <script src = "js/index.js"></script>
+    <footer>
+        <a href = "https://www.instagram.com/caitlin_yeung/">Instagram</a>
+        <a href = "https://www.linkedin.com/in/caitlin-yeung/" target = "_blank"> LinkedIn</a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=clyeung@umich.edu" target="_blank">Gmail</a>
+        
 		<p>Caitlin Yeung &copy; 2023</p>
 	</footer>
 </body>
